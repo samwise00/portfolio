@@ -10,6 +10,7 @@ const ProjectCard = ({
   index,
   active,
   handleClick,
+  url,
 }) => {
   return (
     <div
@@ -24,10 +25,12 @@ const ProjectCard = ({
         </div>
       ) : (
         <div className="absolute h-full w-full rounded-2xl bg-gradient-to-r from-pink-500/50 via-red-500/50 to-yellow-500/50 p-1">
-          <img
-            src={imgUrl}
-            className="flex flex-col justify-center items-center h-full w-full rounded-2xl bg-[#0F0F0F] mx-auto opacity-90 aspect-auto"
-          ></img>
+          <a target="_blank" rel="noopener noreferrer" href={url}>
+            <img
+              src={imgUrl}
+              className="flex flex-col justify-center items-center h-full w-full rounded-2xl bg-[#0F0F0F] mx-auto opacity-90 aspect-auto"
+            ></img>
+          </a>
         </div>
       )}
 
@@ -37,10 +40,12 @@ const ProjectCard = ({
         </h3>
       ) : (
         <div className="absolute bottom-0 p-3 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.7)] rounded-2xl">
-          <h2 className="font-semibold text-xl text-white">
-            {title}{" "}
-            <span className={`${styles.paragraphText}`}>- {description}</span>
-          </h2>
+          <a target="_blank" rel="noopener noreferrer" href={url}>
+            <h2 className="font-semibold text-xl text-white">
+              {title}{" "}
+              <span className={`${styles.paragraphText}`}>- {description}</span>
+            </h2>
+          </a>
         </div>
       )}
     </div>

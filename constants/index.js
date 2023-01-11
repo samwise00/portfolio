@@ -4,24 +4,28 @@ export const exploreProjects = [
     imgUrl: "/inprogress.png",
     title: "Project 1",
     description: "Defi Social Media Site",
+    url: "https://billowing-heart-7171.on.fleek.co/",
   },
   {
     id: "Prism",
     imgUrl: "/prism3.png",
     title: "Prism",
     description: "Mint & Trade NFTs, Stake to Earn.",
+    url: "https://billowing-heart-7171.on.fleek.co/",
   },
   {
     id: "Project 3",
     imgUrl: "/inprogress.png",
     title: "Project 3",
     description: "Project 3",
+    url: "https://billowing-heart-7171.on.fleek.co/",
   },
   {
     id: "Project 4",
     imgUrl: "/inprogress.png",
     title: "Project 4",
     description: "Project 4",
+    url: "https://billowing-heart-7171.on.fleek.co/",
   },
 ];
 
