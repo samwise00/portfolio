@@ -7,7 +7,8 @@ const styles = {
   headingSubtext: "text-md dark:text-white light:text-black",
   subHeading: "text-3xl font-bold dark:text-white light:text-black",
   paragraphText: "text-sm md:text-md text-slate-500",
-  disclaimerText: "text-xs text-slate-500",
+  commentText: "text-sm md:text-md dark:text-white light:text-black",
+  disclaimerText: "text-[10px] text-slate-500",
 };
 
 export default styles;

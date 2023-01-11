@@ -1,27 +1,27 @@
 export const exploreProjects = [
   {
-    id: "This Website",
-    imgUrl: "/profilepic.jpeg",
-    title: "Portfolio",
-    description: "My Portfolio site",
+    id: "Project 1",
+    imgUrl: "/inProgress.png",
+    title: "Project 1",
+    description: "Defi Social Media Site",
   },
   {
     id: "Prism",
-    imgUrl: "/profilepic.jpeg",
+    imgUrl: "/prism3.png",
     title: "Prism",
-    description: "Mint NFTs, Trade NFTs, Stake NFTs, earn $PRISM rewards.",
+    description: "Mint & Trade NFTs, Stake to Earn.",
   },
   {
-    id: "Guethtbook",
-    imgUrl: "/profilepic.jpeg",
-    title: "GuethtBook",
-    description: "Sign your decentralized guethtbook",
+    id: "Project 3",
+    imgUrl: "/inProgress.png",
+    title: "Project 3",
+    description: "Project 3",
   },
   {
-    id: "Project4",
-    imgUrl: "/profilepic.jpeg",
-    title: "Project4",
-    description: "Project4",
+    id: "Project 4",
+    imgUrl: "/inProgress.png",
+    title: "Project 4",
+    description: "Project 4",
   },
 ];
 
@@ -29,18 +29,17 @@ export const socialsDark = [
   {
     name: "twitter",
     url: "/twitter.svg",
+    link: "https://twitter.com/0xShedo",
   },
   {
     name: "linkedin",
     url: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/ss000/",
   },
   {
     name: "github",
     url: "/github.png",
-  },
-  {
-    name: "facebook",
-    url: "/facebook.svg",
+    link: "https://github.com/samwise00",
   },
 ];
 
@@ -80,3 +79,9 @@ export const tracks = [
     tags: ["dubstep"],
   },
 ];
+
+const metadataTemplate = {
+  name: "hi",
+  description: "",
+  image: "",
+};

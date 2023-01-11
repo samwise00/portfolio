@@ -24,7 +24,10 @@ const ProjectCard = ({
         </div>
       ) : (
         <div className="absolute h-full w-full rounded-2xl bg-gradient-to-r from-pink-500/50 via-red-500/50 to-yellow-500/50 p-1">
-          <div className="flex flex-col justify-center items-center h-full w-full rounded-2xl bg-[#0F0F0F] mx-auto"></div>
+          <img
+            src={imgUrl}
+            className="flex flex-col justify-center items-center h-full w-full rounded-2xl bg-[#0F0F0F] mx-auto opacity-90 aspect-auto"
+          ></img>
         </div>
       )}
 
@@ -33,9 +36,11 @@ const ProjectCard = ({
           {title}
         </h3>
       ) : (
-        <div className="absolute bottom-0 p-3 flex justify-start w-full flex-col bg-[rgba(17,17,17,0.5)] rounded-2xl">
-          <p className={`${styles.paragraphText}`}>{description}</p>
-          <h2 className="font-semibold text-xl text-white">{title}</h2>
+        <div className="absolute bottom-0 p-3 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.7)] rounded-2xl">
+          <h2 className="font-semibold text-xl text-white">
+            {title}{" "}
+            <span className={`${styles.paragraphText}`}>- {description}</span>
+          </h2>
         </div>
       )}
     </div>

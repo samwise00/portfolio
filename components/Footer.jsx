@@ -2,7 +2,7 @@
 
 import styles from "../styles";
 import { useState, useEffect } from "react";
-import { socialsLight, socialsDark } from "../constants";
+import { socialsDark } from "../constants";
 import { useTheme } from "next-themes";
 
 const Footer = () => {
@@ -27,20 +27,33 @@ const Footer = () => {
           <div className="flex flex-row gap-4 pr-6 md:pr-0">
             {theme == "dark"
               ? socialsDark.map((social) => (
-                  <img
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={social.link}
                     key={social.name}
-                    src={social.url}
-                    alt={social.name}
-                    className="w-[20px] h-[20px] object-contain cursor-pointer socialicon duration-200"
-                  />
+                  >
+                    <img
+                      src={social.url}
+                      alt={social.name}
+                      className="w-[20px] h-[20px] object-contain cursor-pointer socialicon duration-200"
+                    />
+                  </a>
                 ))
               : socialsDark.map((social) => (
-                  <img
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={social.link}
                     key={social.name}
-                    src={social.url}
-                    alt={social.name}
-                    className="w-[20px] h-[20px] object-contain cursor-pointer socialicon duration-200 invert-[100%]"
-                  />
+                  >
+                    <img
+                      key={social.name}
+                      src={social.url}
+                      alt={social.name}
+                      className="w-[20px] h-[20px] object-contain cursor-pointer socialicon duration-200 invert-[100%]"
+                    />
+                  </a>
                 ))}
           </div>
         </div>

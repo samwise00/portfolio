@@ -1,6 +1,9 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { useAccount } from "wagmi";
+import { watchNetwork } from "@wagmi/core";
 
 export const ConnectBtn = ({ theme }) => {
+  const { address, isConnected, connector: activeConnector } = useAccount();
   return (
     <ConnectButton.Custom>
       {({
@@ -83,7 +86,7 @@ export const ConnectBtn = ({ theme }) => {
                   {theme == "dark" ? (
                     <button onClick={openAccountModal} type="button">
                       <div className="rounded-md bg-gradient-to-r from-pink-500/50 via-red-500/50 to-yellow-500/50 p-[2px]">
-                        <div className="flex flex-col justify-center items-center rounded-md bg-[#0F0F0F] mx-auto py-1 px-2">
+                        <div className="flex flex-col justify-center items-center rounded-md bg-[#0F0F0F] mx-auto py-1 px-2 text-white">
                           {account.displayName}
                         </div>
                       </div>
