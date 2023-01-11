@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
         <title>Sam Sandoval</title>
         <meta name="description" content="Sam Sandoval"></meta>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="snow.css" />
+        <link href="snow.css" />
       </Head>
       <ChakraProvider>
         <WagmiConfig client={wagmiClient}>
