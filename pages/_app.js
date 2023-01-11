@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
     connectors,
     provider,
   });
-  // ASzOoMdVeykRAVDqjJGP3DeQGoMVvHnX
+
   return (
     <div className="overflow-hidden dark:bg-[#0f0f0f] light:bg-white min-h-screen">
       <Head>
