@@ -1,7 +1,7 @@
 export const exploreProjects = [
   {
     id: "Project 1",
-    imgUrl: "/inProgress.png",
+    imgUrl: "/inprogress.png",
     title: "Project 1",
     description: "Defi Social Media Site",
   },
@@ -13,13 +13,13 @@ export const exploreProjects = [
   },
   {
     id: "Project 3",
-    imgUrl: "/inProgress.png",
+    imgUrl: "/inprogress.png",
     title: "Project 3",
     description: "Project 3",
   },
   {
     id: "Project 4",
-    imgUrl: "/inProgress.png",
+    imgUrl: "/inprogress.png",
     title: "Project 4",
     description: "Project 4",
   },
