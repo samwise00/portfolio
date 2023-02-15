@@ -1,10 +1,10 @@
 export const exploreProjects = [
   {
-    id: "Project 1",
-    imgUrl: "/inprogress.png",
-    title: "Project 1",
+    id: "Noodle",
+    imgUrl: "/lens.png",
+    title: "Noodle",
     description: "Defi Social Media Site",
-    url: "https://billowing-heart-7171.on.fleek.co/",
+    url: "https://lens-feed-seven.vercel.app/",
   },
   {
     id: "Prism",
