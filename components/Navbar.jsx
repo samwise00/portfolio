@@ -59,18 +59,18 @@ const Navbar = () => {
   }
   return (
     <section className={`${styles.innerWidth} min-h-10 mx-auto`}>
-      {isSnowing && theme == "dark" && (
+      {/* {isSnowing && theme == "dark" && (
         <Snowfall speed={[0.1, 0.3]} snowflakeCount={35} />
       )}
       {isSnowing && theme != "dark" && (
         <Snowfall speed={[0.1, 0.3]} snowflakeCount={35} color={"#000000"} />
-      )}
+      )} */}
 
       <div className="flex justify-between gap-4">
         <div className="flex flex-row gap-2">
           <ColorThemeBtn theme={theme} onClick={handleToggleTheme} />
-          <AudioBtn theme={theme} isPaused={isPaused} onClick={handleAudio} />
-          <SnowflakeBtn isSnowing={isSnowing} onClick={handleIsSnowing} />
+          {/* <AudioBtn theme={theme} isPaused={isPaused} onClick={handleAudio} />
+          <SnowflakeBtn isSnowing={isSnowing} onClick={handleIsSnowing} /> */}
         </div>
         <div className="flex flex-row gap-4">
           <ConnectBtn
