@@ -70,7 +70,7 @@ const Navbar = () => {
         <div className="flex flex-row gap-2">
           <ColorThemeBtn theme={theme} onClick={handleToggleTheme} />
           {/* <AudioBtn theme={theme} isPaused={isPaused} onClick={handleAudio} />
-          <SnowflakeBtn isSnowing={isSnowing} onClick={handleIsSnowing} /> */}
+          <SnowflakeBtn isSnowing={isSnowing} onClick={handleIsSnowing} 2 /> */}
         </div>
         <div className="flex flex-row gap-4">
           <ConnectBtn
