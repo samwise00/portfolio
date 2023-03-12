@@ -1,4 +1,4 @@
-[Check out my website!](samsandoval.me)
+[Check out my website!](https://samsandoval.me)
 
 Built with:
 <ul>
